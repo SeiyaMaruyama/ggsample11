@@ -49,5 +49,5 @@ void main(void)
 
   // 頂点のスクリーン座標
   gl_Position = mp * p;
-  ps = ms * pv;
+  // ps = ms * pv;
 }

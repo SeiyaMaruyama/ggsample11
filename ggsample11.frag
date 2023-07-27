@@ -13,5 +13,6 @@ layout (location = 0) out vec4 fc;                  // フラグメントの色
 
 void main(void)
 {
-  fc = iamb + (idiff + ispec) *  texture(depth, ps.xyz * 0.5 / ps.w + 0.5);
+  fc = iamb + idiff + ispec
+  // fc = iamb + (idiff + ispec) *  texture(depth, ps.xyz * 0.5 / ps.w + 0.5);
 }
